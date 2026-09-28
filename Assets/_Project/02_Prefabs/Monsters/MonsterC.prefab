@@ -152,8 +152,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: caceb2f9b2c69c542bb65597eec0b77b, type: 3}
   - {fileID: 21300000, guid: 9f4a647f107f0c1459d8e6a328302cf8, type: 3}
   - {fileID: 21300000, guid: 0d501a0e592e728419502a0fbee5c270, type: 3}
-  - {fileID: 21300000, guid: 3f1b7b260c3eb3c4eae8db687e11163d, type: 3}
-  - {fileID: 21300000, guid: 97b8960d1784f0c4a81f3f359eecfa3d, type: 3}
   flyFrames:
   - {fileID: 21300000, guid: 16525dab3f2609f48bc5a761b2588f74, type: 3}
   - {fileID: 21300000, guid: 6d50e523518422640af44bab233b2d9a, type: 3}
@@ -161,11 +159,14 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 59412d4459b5f0c48b5371011d0d3fc9, type: 3}
   - {fileID: 21300000, guid: 5857908f24ff1384cb02d1e7577fe115, type: 3}
   - {fileID: 21300000, guid: ace1af66117981f4cb2d565c707e24cd, type: 3}
+  - {fileID: 21300000, guid: d22014f60dbd85647aa2229b43406ced, type: 3}
+  - {fileID: 21300000, guid: ead1173e846da744589bee0f8fb0e3f8, type: 3}
+  - {fileID: 21300000, guid: 6d2696b547b59ab4eb512d83aeb49e80, type: 3}
+  - {fileID: 21300000, guid: 1de327bc680d9b143a3685c6fda7e2a4, type: 3}
   attack1Frames:
   - {fileID: 21300000, guid: 16adabf803243ce4e8446cf496786e32, type: 3}
   - {fileID: 21300000, guid: 48adcdbde36f7ae4eab65a7a9630cf43, type: 3}
   - {fileID: 21300000, guid: 52c6f339efdb9d243b668588773bb904, type: 3}
-  - {fileID: 21300000, guid: 7c734dff692c1b34c9a7b8792dbb20d3, type: 3}
   attack2ChargeFrames:
   - {fileID: 21300000, guid: 4080999ded3e10e45a6e1d2071b23204, type: 3}
   - {fileID: 21300000, guid: 32892729486dc244e89ea319ec116acd, type: 3}
@@ -187,6 +188,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: d999896660c5d7347990ede926a21640, type: 3}
   - {fileID: 21300000, guid: 9a7e0272aff274c4faa5427db6dad964, type: 3}
   - {fileID: 21300000, guid: c11b8e945cee5e74c8bfe96d89d4e999, type: 3}
+  - {fileID: 21300000, guid: a9e4f68c7b4e47129d1d2b7f2b1c03e6, type: 3}
+  - {fileID: 21300000, guid: a7dba5b6abe094f4db56ba1f73013f8f, type: 3}
   projectileFrames:
   - {fileID: 21300000, guid: c019f4cb862084842b4bc8e44945d21e, type: 3}
   - {fileID: 21300000, guid: 3d3a7d0252b7a5f4e864560970f4ace4, type: 3}
@@ -224,7 +227,11 @@ MonoBehaviour:
   respawnDelay: 2
   maxRespawnCount: -1
   hpDisplayHeightOverride: 2.93
-  idleFrameTimes: []
+  idleFrameTimes:
+  - 0.15
+  - 0.15
+  - 0.15
+  - 0.15
   flyFrameTimes: []
   attack1FrameTimes:
   - 0

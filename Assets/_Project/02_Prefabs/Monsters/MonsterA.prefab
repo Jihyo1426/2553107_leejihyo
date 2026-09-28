@@ -122,7 +122,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
-    oldSize: {x: 4.1666665, y: 4.1666665}
+    oldSize: {x: 5, y: 5}
     newSize: {x: 4.1666665, y: 4.1666665}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -162,10 +162,10 @@ MonoBehaviour:
     m_Bits: 1
   groundCheckFootOffsetY: 0.05
   groundCheckDistance: 0.25
-  hurtBoxSize: {x: 1.6, y: 1}
-  hurtBoxOffset: {x: 0, y: 0.55}
-  attackBoxSize: {x: 1.92, y: 1.27}
-  attackBoxOffset: {x: -0.62, y: 0.63}
+  hurtBoxSize: {x: 1.17, y: 1.03}
+  hurtBoxOffset: {x: 0.06, y: 0.52}
+  attackBoxSize: {x: 1.65, y: 1.21}
+  attackBoxOffset: {x: -0.39, y: 0.52}
   hpDisplayHeightOverride: 1.8
   idleFrames:
   - {fileID: 21300000, guid: e4456af0740e17545b0a83fdfc813c2a, type: 3}
@@ -179,6 +179,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 63788f48d15541c44b22163d2dbc2f39, type: 3}
   - {fileID: 21300000, guid: 6525d3fb1bd30b94b89ac8c3733e9674, type: 3}
   - {fileID: 21300000, guid: 15213a76872978b46a893a10924c2aa5, type: 3}
+  - {fileID: 21300000, guid: fb43c180d7658e141a74f61464770c37, type: 3}
   attackFrames:
   - {fileID: 21300000, guid: bbfa598819ea4e10941cd0ccd8d046d7, type: 3}
   - {fileID: 21300000, guid: 58c973e7ea624ca59148ac898837da78, type: 3}
@@ -192,6 +193,33 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 708562abdd88489880ef255db418bd5f, type: 3}
   - {fileID: 21300000, guid: c207956a914b4a02bb1ae40b2a36740c, type: 3}
   - {fileID: 21300000, guid: c47be02a12214d14a1d10ff5e23b0cc7, type: 3}
+  - {fileID: 21300000, guid: 14190af46fc5aee41b4f3cc59aa8b5e8, type: 3}
+  - {fileID: 21300000, guid: 41d3d11a8a224e041b036a64c0931517, type: 3}
+  - {fileID: 21300000, guid: 7e0be7702efa3b047b94ba11e4681fdc, type: 3}
+  - {fileID: 21300000, guid: b17940778f7803f46922bb4c54fa3d84, type: 3}
+  - {fileID: 21300000, guid: ecc51fff8a26a97439857147f919a2de, type: 3}
+  - {fileID: 21300000, guid: 508ff1b247db7b04e9eb97acebf22ef2, type: 3}
+  - {fileID: 21300000, guid: f23b48a22fa49474d9529b59e8564a8a, type: 3}
+  - {fileID: 21300000, guid: 3b6de0df3b560514e93ed3f15e26304f, type: 3}
+  - {fileID: 21300000, guid: e0a75a6a8b0d27f448ee03a29130e7b2, type: 3}
+  - {fileID: 21300000, guid: 6b724eaf0bf7e13479e61969d50dcb40, type: 3}
+  - {fileID: 21300000, guid: 459b2ef8f9151a64097add5273b433ec, type: 3}
+  - {fileID: 21300000, guid: 62940a71cb0dd814d83f80e9c60e4b7c, type: 3}
+  - {fileID: 21300000, guid: 1543fa288d5e48840a4a692552ca7f7e, type: 3}
+  - {fileID: 21300000, guid: 457eaae63e1c9db4387c2f7a0121bcb0, type: 3}
+  - {fileID: 21300000, guid: 99a2860f66c7186459ed5714088607fd, type: 3}
+  - {fileID: 21300000, guid: 457eaae63e1c9db4387c2f7a0121bcb0, type: 3}
+  - {fileID: 21300000, guid: 1543fa288d5e48840a4a692552ca7f7e, type: 3}
+  - {fileID: 21300000, guid: 62940a71cb0dd814d83f80e9c60e4b7c, type: 3}
+  - {fileID: 21300000, guid: 459b2ef8f9151a64097add5273b433ec, type: 3}
+  - {fileID: 21300000, guid: 6b724eaf0bf7e13479e61969d50dcb40, type: 3}
+  - {fileID: 21300000, guid: e0a75a6a8b0d27f448ee03a29130e7b2, type: 3}
+  - {fileID: 21300000, guid: 3b6de0df3b560514e93ed3f15e26304f, type: 3}
+  - {fileID: 21300000, guid: f23b48a22fa49474d9529b59e8564a8a, type: 3}
+  - {fileID: 21300000, guid: 87a15e605656c874c85e1e75c51726af, type: 3}
+  - {fileID: 21300000, guid: 0e8bf5f26a83df74e86da3097cfc267f, type: 3}
+  - {fileID: 21300000, guid: 3469185fc20a0df4db5962e13aac091f, type: 3}
+  - {fileID: 21300000, guid: 65fe6eeb1a4ae104bb5b3c9ef069c807, type: 3}
   idleFrameTimes:
   - 0.1667
   - 0.1667
@@ -217,7 +245,7 @@ MonoBehaviour:
   - 0.1429
   - 0.1429
   - 0.1429
-  attackDamageFrame: 3
+  attackDamageFrame: 4
   attackSfx:
     clip: {fileID: 8300000, guid: 00edbd345f77b5145a339ed4da43f264, type: 3}
     volume: 1
