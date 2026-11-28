@@ -333,8 +333,8 @@ MonoBehaviour:
   hurtBoxOffset: {x: 0, y: 2.9}
   attack1BoxSize: {x: 4.43, y: 2.82}
   attack1BoxOffset: {x: -1.79, y: 2.86}
-  attack2BoxSize: {x: 5.45, y: 3.93}
-  attack2BoxOffset: {x: -3.02, y: 2.74}
+  attack2BoxSize: {x: 10.48, y: 4.42}
+  attack2BoxOffset: {x: -1.42, y: 2.85}
   hpDisplayHeightOverride: 3.43
   defaultFramesPerSecond: 8
   spriteRenderer: {fileID: 0}
